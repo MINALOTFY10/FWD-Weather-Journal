@@ -1,0 +1,107 @@
+body {
+    background: #fffff8;
+    background-image: url("image/pexels-photo-281260\ \(1\).webp");
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-size: cover;
+
+    margin: 0;
+}
+
+#title,
+#feeling {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: white;
+}
+
+#date {
+    font-size: 50%;
+}
+
+#entryHolder {
+    display: flex;
+    color: white;
+
+    font-family: 'Oswald', sans-serif;
+    margin-top: 40%;
+    margin-left: 0%;
+    margin-right: 20%;
+    text-align: center;
+
+}
+
+span {
+    display: inline-block;
+    line-height: 20px;
+}
+
+
+#right-bar {
+
+    background-color: rgba(0, 0, 5, 0.3);
+    height: 100vh;
+
+    float: right;
+    right: 0;
+
+    width: 35%;
+    /* grid-auto-rows: minmax(150px, auto); */
+}
+
+#details {
+    padding-bottom: 8%;
+    font-size: 130%;
+    color: #B5F1CC;
+}
+
+#Cloudy,
+#Humidity,
+#Wind,
+#Rain {
+    padding-left: 15%;
+}
+
+::placeholder {
+    color: gray;
+}
+
+input {
+    font-size: 120%;
+    color: #B5F1CC;
+}
+
+textarea {
+    font-size: 150%;
+    color: #B5F1CC;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0px;
+
+    padding: 20px;
+    padding-left: 10%;
+}
+
+#left-bar {
+    float: left;
+    width: 60%;
+
+}
+
+#app {
+    /* display: grid; */
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height: 100vh;
+    color: #f0d43a;
+    /* justify-content: right; */
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+

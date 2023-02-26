@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Journal</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+  <div id="left-bar">
+    <div style="display: flex;">
+      <div class="holder headline" id="title"> The.Weather.Journal </div>
+      <div id="feeling" style="padding-left: 55%;">
+        <div>You're feeling,</div>
+        <div id="content" style="color: chartreuse;"></div>
+      </div>
+
+    </div>
+
+
+    <div id="entryHolder">
+
+
+      <div id="temp-date-time" style="width: 100%;padding-right: 0;padding-top: 8%;">
+        <span style="font-size: 800%;padding-bottom: 20%;">
+          <div id="temp"></div>
+        </span>
+
+
+        <span style="font-size: 400%;padding-left: 4%;">
+          <div id="city"></div>
+        </span>
+
+        <span style="font-size: 120%; padding-left: 2%;">
+          <div id="time"></div>
+        </span>
+        <span style="font-size: 40px">
+          <div id="date"></div>
+        </span>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="right-bar">
+    <div style="padding-left: 88%;"><button id="generate" type="submit"
+        style="border: 0; padding: 28% 16%;color: #0F6292; background-color: #E9F8F9;"> Generate </button></div>
+
+    <div class="holder zip">
+      <input type="text" id="zip" placeholder="Enter zip code here">
+    </div>
+    <hr style="width: 80%;">
+    <div class="holder feel">
+      <textarea class="myInput" id="feelings" placeholder="Enter your feelings here" rows="6" cols="50"
+        style="padding-top: 8%;"></textarea>
+    </div>
+    <hr style="width: 80%;">
+
+    <div class="holder entry">
+    </div>
+
+    <div style="color: ghostwhite;font-size: 150%;padding: 10% 10%;">Weather Details</div>
+    <div style="padding-left: 10%;">
+      <div id="details">
+        <span style="display: flex;">
+          <div>Cloudy</div> <span>
+            <div id="Cloudy" style="position: absolute; right: 0px; padding-right: 4%;"></div>
+          </span>
+        </span>
+      </div>
+      <div id="details">
+        <span style="display: flex;">
+          <div>Humidity</div> <span>
+            <div id="Humidity" style="position: absolute; right: 0px; padding-right: 4%;"></div>
+          </span>
+        </span>
+      </div>
+      <div id="details">
+        <span style="display: flex;">
+          <div>Wind</div> <span>
+            <div id="Wind" style="position: absolute; right: 0px; padding-right: 4%;"></div>
+          </span>
+        </span>
+      </div>
+      <div id="details">
+        <span style="display: flex;">
+          <div>Rain</div> <span>
+            <div id="Rain" style="position: absolute; right: 0px; padding-right: 4%;"></div>
+          </span>
+        </span>
+      </div>
+    </div>
+
+  </div>
+  <script src="app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
