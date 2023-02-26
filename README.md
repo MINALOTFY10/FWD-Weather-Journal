@@ -30,9 +30,6 @@ The Weather Journal App uses the following dependencies:
 - `cors`
 - `express`
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](http://license.md/) file for details.
 
 ## Acknowledgments
 
